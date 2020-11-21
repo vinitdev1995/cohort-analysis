@@ -1,0 +1,41 @@
+.header {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.form-header {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 82px;
+}
+
+.field {
+    font-weight: bold;
+}
+
+.custom-button{
+    background: #2e1456;
+    color: #fff;
+}
+
+.custom-button:hover{
+    color: #fff;
+}
+
+.custom-file-label {
+    content: "";
+/*/padding-left: 40px;/*/
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.custom-file-input:lang(en)~.custom-file-label::after {
+    content: "";
+    padding: 0px;
+    border-left: unset ;
+}
+
+.file-name {
+    margin-left: 50px;
+}
